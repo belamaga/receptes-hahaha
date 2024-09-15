@@ -1,8 +1,54 @@
-* {
-    margin: 0;
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #e2d8d8;
+    color: #333;
+    margin: 20px;
     padding: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Kérem Szilárd Úr, csinálja meg az oldal kinézetét sötét témájúra, és hogy a szöveg és a képek középen jelenjenek meg, hasonlóan ehhez az oldal kinézetéhez: https://lukesmith.xyz/ */
+h1,
+h2 {
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
 
 /* Még kérlek csináld meg, hogy a "Felhívás" <h2>-es taget pirossal emeld ki, a lap alján ami van. Miután végeztél, ezeket a kommenteket kitörölheted */
+
+h2:last-of-type {
+    color: red;
+}
